@@ -15,6 +15,14 @@
     --ff-overpass: 'Overpass', sans-serif;
 }
 
+img {
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+} 
+
+
 body{
     background-color: var(--dark-bg-clr);
     /* Center the card */
@@ -26,12 +34,27 @@ body{
 }
 
 .card{
-background: linear-gradient(180deg, var(--dark-blue) 0%, var(--dark-bg-clr) 100%);
- border: 2px solid black;
- min-height: 20rem;
- width: 20rem;
- border-radius: 10px;
+    background: linear-gradient(180deg, var(--dark-blue)    0%, var(--dark-bg-clr) 100%);
+    border: 2px solid black;
+    min-height: 22rem;
+    width: 20rem;
+    border-radius: 10px;
 }
+
+
+#star{
+    border: 2px solid red;
+    margin-right: 16rem;
+    margin-top: 1rem;
+    min-height: 1rem;
+    max-width: 1rem;
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color: var(--dark-blue);
+    
+}
+
+
 
 h1{
     font-family: var(--ff-overpass);
@@ -47,11 +70,33 @@ h2{
 }
 
 p{
+    margin: 1rem;
     font-family: var(--ff-overpass);
     color: var(--light-grey);
     font-size: 15px;
 }
 
+.number-btn{
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0.5rem;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+}
+
+#submit-btn{
+    padding: 1rem;
+    margin: 2rem;
+    min-width: 15rem;
+    border-radius: 20em;
+    border: none;
+    background-color: var(--btn-orange);
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
 
 #card-state-two{
     display: none;
