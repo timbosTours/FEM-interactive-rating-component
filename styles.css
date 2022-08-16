@@ -76,14 +76,25 @@ p{
     font-size: 15px;
 }
 
-.number-btn{
-    min-height: 2.5rem;
-    min-width: 2.5rem;
-    border-radius: 50%;
+.radio-input{
+    display: none;
+}
+
+.radio-label{
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-right: 1em;
+    padding-left: 1em;
     border: none;
-    margin: 0.5rem;
+    border-radius: 50%;
+    margin: 0.25rem;
     background-color: var(--dark-blue);
     color: var(--light-grey);
+    cursor: pointer;
+}
+
+.radio-input:checked + .radio-label{
+    background-color: var(--btn-orange);
 }
 
 #submit-btn{
