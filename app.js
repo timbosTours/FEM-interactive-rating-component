@@ -5,7 +5,6 @@ function showInput() {
 
 function changeStateOne() {
     var stateOne = document.getElementById('card-state-one');
-    var submitButton = document.getElementById('submit-btn');
 
     stateOne.style.display = "none";
 }
