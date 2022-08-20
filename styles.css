@@ -34,8 +34,7 @@ body{
 }
 
 .card{
-    background: linear-gradient(180deg, var(--dark-blue)    0%, var(--dark-bg-clr) 100%);
-    /* border: 2px solid black; */
+    background: linear-gradient(180deg, var(--dark-blue)    0%, var(--dark-bg-clr) 150%);
     max-height: 24rem;
     width: 20rem;
     border-radius: 10px;
@@ -43,7 +42,6 @@ body{
 
 
 #star{
-    /* border: 2px solid red; */
     background-color: var(--dark-blue);
     margin-right: 16rem;
     margin-top: 1rem;
@@ -160,6 +158,10 @@ p{
 }
 #state-two-h2{
     margin-top: 1rem;
+}
+
+#state-two-paragragh{
+    padding-bottom: 1rem;
 }
 
 
