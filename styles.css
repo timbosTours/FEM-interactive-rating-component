@@ -110,8 +110,14 @@ p{
     cursor: pointer;
 }
 
+.radio-label:hover{
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
 .radio-input:checked + .radio-label{
     background-color: var(--btn-orange);
+    color: var(--white);
 }
 
 #submit-btn{
@@ -126,6 +132,11 @@ p{
     text-transform: uppercase;
     letter-spacing: 0.25rem;
     cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: var(--white);
+    color: var(--btn-orange);
 }
 
 #card-state-two{
