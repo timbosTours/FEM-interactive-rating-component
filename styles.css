@@ -52,10 +52,6 @@ body{
     
 }
 
-#card-state-one{
-    /* display: none; */
-}
-
 h1{
     font-family: var(--ff-overpass);
     color: var(--white);
