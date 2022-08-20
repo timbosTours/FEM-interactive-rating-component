@@ -34,7 +34,8 @@ body{
 }
 
 .card{
-    background: linear-gradient(180deg, var(--dark-blue)    0%, var(--dark-bg-clr) 150%);
+    background:  
+    linear-gradient(180deg, var(--dark-blue)    -100%, var(--dark-bg-clr) 150%);
     max-height: 24rem;
     width: 20rem;
     border-radius: 10px;
