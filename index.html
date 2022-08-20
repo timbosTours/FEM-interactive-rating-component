@@ -6,9 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles.css">
   
-  <link rel="stylesheet" href="app.js">
+  <script src="./app.js"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,25 +29,26 @@
   <p id="state-one-paragragh"> Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
-<form action="index.html">
+<form action="index.html" class="rating-form">
 <ul class="radio-ul">
-  <input type="radio" name="radio-select" class="radio-input" id="radio-1">
+  <input type="radio" name="radio-select" value="1" class="radio-input" id="radio-1">
 <label class="radio-label" for="radio-1">1</label>
 </input>
-  <input type="radio" name="radio-select" class="radio-input" id="radio-2">
+  <input type="radio" name="radio-select" value="2" class="radio-input" id="radio-2">
 <label class="radio-label" for="radio-2">2</label>
 </input>
-  <input type="radio" name="radio-select" class="radio-input" id="radio-3">
+  <input type="radio" name="radio-select" value="3" class="radio-input" id="radio-3">
 <label class="radio-label" for="radio-3">3</label>
 </input>
-  <input type="radio" name="radio-select" class="radio-input" id="radio-4">
+  <input type="radio" name="radio-select" value="4" class="radio-input" id="radio-4">
 <label class="radio-label" for="radio-4">4</label>
 </input>
-  <input type="radio" name="radio-select" class="radio-input" id="radio-5">
+  <input type="radio" name="radio-select" value="5" class="radio-input" id="radio-5">
 <label class="radio-label" for="radio-5">5</label>
 </input>
 </ul>
-  <button for="radio-input" id="submit-btn">Submit</button>
+  <button onclick="showInput(); changeStateOne(); changeStateTwo();" type="button" for="radio-select" id="submit-btn">Submit</button>
+</form>
 </div>
 
   <!-- Rating state end -->
@@ -56,7 +57,7 @@
 <div class="card" id="card-state-two">
   <img id="state-two-img" src="./images/illustration-thank-you.svg" alt="thank you image">
   <div>
-  <h1 id="state-two-h1">You selected <output id="selection-output" for="radio-input"></output> out of 5</h1>
+  <h1 id="state-two-h1">You selected <span id="selection-output" ></span> out of 5</h1>
   </div>
 
 
@@ -65,7 +66,7 @@
   <p id="state-two-paragragh"> We appreciate you taking the time to give a rating. If you ever need more support, 
   don’t hesitate to get in touch!</p>
 </div>
-</form>
+
   <!-- Thank you state end -->
 </main>
   

@@ -55,7 +55,7 @@ body{
 }
 
 #card-state-one{
-    display: none;
+    /* display: none; */
 }
 
 h1{
@@ -125,10 +125,11 @@ p{
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.25rem;
+    cursor: pointer;
 }
 
 #card-state-two{
-    /* display: none; */
+    display: none;
 }
 
 #state-two-img{
