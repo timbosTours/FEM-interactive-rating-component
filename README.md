@@ -30,11 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/ScreenShot-card-one.png)
-![](./images/ScreenShot-card-two.png)
-![](./images/ScreenShot-card-one-active1.png)
-![](./images/ScreenShot-card-one-active2.png)
-![](./images/ScreenShot-mobile.png)
+![](./images/screenShot-desktop-card-one.png)
+![](./images/screenShot-desktop-card-two.png)
+![](./images/screenShot-state-one.png)
+![](./images/screenShot-state-two.png)
+![](./images/screenShot-card-one-mobile.png)
+![](./images/screenShot-card-two-mobile.png)
+
 
 ## My process
  
@@ -46,6 +48,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Vanilla Javascript
+- Mobile first workflow
 
 ### What I learned
 
