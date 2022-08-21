@@ -35,7 +35,7 @@ body{
 
 .card{
     background:  
-    linear-gradient(180deg, var(--dark-blue)    -100%, var(--dark-bg-clr) 150%);
+    linear-gradient(180deg, var(--dark-blue)    -100%, var(--dark-bg-clr) 175%);
     max-height: 24rem;
     width: 20rem;
     border-radius: 10px;
@@ -64,6 +64,7 @@ h1{
     text-align: left;
     padding-left: 1rem;
     margin-left: 0.25em;
+    margin-top: 0.25rem;
 }
 
 #state-one-paragragh{
@@ -166,4 +167,45 @@ footer{
     position: absolute;
     bottom: 0%;
     display: none;
+}
+
+@media screen and (min-width: 375px) {
+    .card{
+        min-height: 24rem;
+        min-width: 24rem;
+
+    }
+    #star{
+        margin-right: 19rem;
+        margin-top: 2rem;
+        min-height: 1rem;
+        padding: 0.75rem;
+    }
+    #state-one-h1{
+        margin-top: 1rem;
+        font-size: x-large;
+    }
+    #state-one-paragragh{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 0.45rem;
+        max-width: 90%;
+    }
+    .radio-label{
+        padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    }
+    #submit-btn{
+        min-width: 20rem;
+        margin-top: 2.5rem;
+    }
+    #state-two-h2{
+        margin-top: 2rem;
+    }
+    #state-two-paragragh{
+        width: 87.5%;
+    }
+
 }
